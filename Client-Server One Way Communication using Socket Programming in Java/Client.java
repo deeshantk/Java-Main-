@@ -5,7 +5,7 @@ public class Client{
         try{
             Socket s = new Socket("localhost", 8080);
             DataOutputStream dout = new DataOutputStream(s.getOutputStream());
-            dout.writeUTF("Hello Server");
+            dout.writeUTF("Hello Server");   
             dout.flush();
             dout.close();
             s.close();
