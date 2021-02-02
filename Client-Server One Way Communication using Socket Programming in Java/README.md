@@ -1,4 +1,4 @@
-For one-way client and server communication, we will first run ServerSocket class as accept method bolcks it to wait for the client and while it will wait for Client, we run Socket class to get the response from Client.
+For one-way client and server communication, we will first run ServerSocket class as accept method blocks it to wait for the client and while it will wait for Client, we run Socket class to get the response from Client.
 
 
 
