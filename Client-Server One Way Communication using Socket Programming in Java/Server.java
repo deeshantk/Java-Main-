@@ -3,7 +3,7 @@ import java.net.*;
 public class Server{
     public static void main(String[] args){
         try{
-            ServerSocket ss = new ServerSocket(8080);
+            ServerSocket ss = new ServerSocket(8080);    
             Socket s = ss.accept();
             DataInputStream dis = new DataInputStream(s.getInputStream());
             String str = (String)dis.readUTF();
